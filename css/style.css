@@ -1,0 +1,128 @@
+#sidebar-wrapper{
+	overflow: hidden;
+}
+#mapid { 
+	width: 100%; 
+	height: 400px;
+}
+.service_marker{
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 0px 4px 0px 4px;
+	margin-left: 4px;
+	margin-bottom: 4px; 
+	font-size: 12px;
+}
+.service_marker_split{
+	border: 1px solid #ccc;
+	display: block;
+	padding: 0px 4px 0px 4px;
+	margin-left: 4px;
+	margin-bottom: 4px; 
+}
+.title_marker{
+	display: block;
+	font-size: 14px;
+}
+input{
+    min-width: 215px;
+}
+.width100{
+	width: 100%;
+}
+.history_class{
+	max-height: 200px;
+    overflow: auto;
+    display: none;
+}
+.history_ul{
+    padding-left: 20px;
+    list-style: none;
+}
+li .history_li{
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-style: oblique;
+    color: rgba(255,255,255,0.8);
+	line-height: initial;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#message{
+	display: none;
+	margin-bottom: 0px;
+}
+.space{
+	padding-left: 17px;
+    display: inline-block;
+ 	margin-top: 20px;
+
+}
+.add_all_stop{
+	color: rgba(0,250,0,0.5);
+	display: none;
+}
+#all_new_stop{
+	color: rgba(0,250,0,0.5);
+	display:none;
+}
+.modal-body{
+	text-align: justify;
+    text-justify: inter-word;
+}
+.modal-body img{
+	width: 100%;
+	margin: 20px 0px 20px 0px;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.modal-body .small-image{
+    width: 50%;
+}
+.spinner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../img/spinner.gif) center center no-repeat;
+    z-index: 999;
+}
+#myModal, #wrapper{
+	display: none;
+}
+.panel-title-color{
+	background-color: whitesmoke;
+}
+.panel-group a, .panel-group a:hover, .panel-group a:focus{
+	color:inherit;
+	text-decoration: none !important;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+
+@media(max-width:700px) {
+	.container-fluid{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
